@@ -9,7 +9,7 @@ int main() {
     double tiempo;
     gettimeofday(&inicio,NULL);
 
-    double gris[256];
+    int gris[256];
     memset(&gris,0,256);
 
     int w,h,i;
@@ -31,7 +31,7 @@ int main() {
      printf("time: %.50lf \t",tiempo);
 
     for(int i = 0;i<256;i++)
-        printf("%e ",gris[i]);
+        printf("%d ",gris[i]);
 
     free(data);
     return 0;
