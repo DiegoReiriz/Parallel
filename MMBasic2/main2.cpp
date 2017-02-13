@@ -1,4 +1,4 @@
-	#include <stdlib.h>
+#include <stdlib.h>
 #include <stdio.h>
 #include <sys/time.h>
 
@@ -23,9 +23,11 @@ int main() {
     for(k=0; k<N;k++){
         offset+=N;
 
-        for(i=0; i<N; i++)
+        for(i=0; i<N; i+=4)
             res[k]+=A[offset+i]*b[i];
-
+		res[k]+=A[offset+i]*b[i+1];
+		res[k]+=A[offset+i]*b[i+2];
+		res[k]+=A[offset+i]*b[i+3];
     }
 
 

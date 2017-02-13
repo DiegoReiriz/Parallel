@@ -9,8 +9,8 @@ int main() {
     double tiempo;
     gettimeofday(&inicio,NULL);
 
-    double gris[256];
-    memset(&gris,0,256);
+    int gris[256];
+    memset(&gris,0,256*sizeof(int));
 
     int w,h,i;
 
@@ -18,11 +18,14 @@ int main() {
 
     int total = w*h;
 
+//	for(i=0;i<256;i++)
+//		gris[i]=0;
+	
     for (i =0; i < total; i++)
         gris[data[i]]++;
 
-    for (i =0; i < 256; i++)
-        gris[i]=gris[i]/total;
+    //for (i =0; i < 256; i++)
+    //    gris[i]=gris[i]/total;
 
     gettimeofday(&final,NULL);
 
@@ -31,7 +34,7 @@ int main() {
      printf("time: %.50lf \t",tiempo);
 
     for(int i = 0;i<256;i++)
-        printf("%e ",gris[i]);
+        printf("\n%d ",gris[i]);
 
     free(data);
     return 0;
