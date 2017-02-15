@@ -15,8 +15,7 @@ int main() {
     double* A = importDOUBLE("A.txt",N,N);
     double* b = importDOUBLE("b.txt",N,N);
     double* res = (double *) malloc( sizeof(double) * N);
-
-    gettimeofday(&final,NULL);
+	
     int offset=0;
     int k;
     int i;
@@ -28,7 +27,7 @@ int main() {
 
     }
 
-
+    gettimeofday(&final,NULL);
     tiempo = (final.tv_sec-inicio.tv_sec+(final.tv_usec-inicio.tv_usec)/1.e6);
 
     printf("time: %.50lf \t",tiempo);
