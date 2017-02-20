@@ -1,0 +1,7 @@
+slurmstepd: error: *** STEP 444108.0 ON c7208 CANCELLED AT 2017-02-15T16:19:41 DUE TO TIME LIMIT ***
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** JOB 444108 ON c7208 CANCELLED AT 2017-02-15T16:19:41 DUE TO TIME LIMIT ***
+srun: got SIGCONT
+srun: forcing job termination
+srun: error: c7208: task 0: Terminated
+srun: Terminating job step 444108.0

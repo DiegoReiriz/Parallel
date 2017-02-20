@@ -1,0 +1,7 @@
+Hello there!, I'm the master of the universe!
+Max number of threads = 1
+Good bye from the the master of the universe!
+srun: error: c7226: task 0: Exited with exit code 46
+srun: Terminating job step 449607.0
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+srun: error: c7230: task 1: Killed

@@ -1,0 +1,34 @@
+Hello there!, I'm the master of the universe!
+Hello World from thread = 0 at machine [c6638]
+Number of threads = 12 at machine [c6638]
+Hello World from thread = 5 at machine [c6638]
+Hello World from thread = 6 at machine [c6638]
+Hello World from thread = 7 at machine [c6638]
+Hello World from thread = 11 at machine [c6638]
+Hello World from thread = 9 at machine [c6638]
+Hello World from thread = 10 at machine [c6638]
+Hello World from thread = 8 at machine [c6638]
+Hello World from thread = 4 at machine [c6638]
+Hello World from thread = 3 at machine [c6638]
+Hello World from thread = 2 at machine [c6638]
+Hello World from thread = 1 at machine [c6638]
+Good bye from the the master of the universe!
+srun: error: c6638: task 0: Exited with exit code 46
+srun: Terminating job step 449460.0
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+Hello there!, I'm the master of the universe!
+Hello World from thread = 0 at machine [c6639]
+Number of threads = 12 at machine [c6639]
+Hello World from thread = 5 at machine [c6639]
+Hello World from thread = 6 at machine [c6639]
+Hello World from thread = 7 at machine [c6639]
+Hello World from thread = 9 at machine [c6639]
+Hello World from thread = 11 at machine [c6639]
+Hello World from thread = 8 at machine [c6639]
+Hello World from thread = 10 at machine [c6639]
+Hello World from thread = 4 at machine [c6639]
+Hello World from thread = 3 at machine [c6639]
+Hello World from thread = 2 at machine [c6639]
+Hello World from thread = 1 at machine [c6639]
+Good bye from the the master of the universe!
+srun: error: c6639: task 1: Exited with exit code 46
