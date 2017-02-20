@@ -15,6 +15,8 @@ int main() {
     double pi=0;
     int x;
     int k;
+    
+    #pragma omp parallel for private(x) reduction(+:pi)
     for(k = 0; k < N; k++){
         x = 8*k;
         pi += (1.0F/pow(16,k)) * ((4.0F/(x+1))-(2.0F/(x+4))-(1.0F/(x+5))-(1.0F/(x+6)));
